@@ -1801,11 +1801,11 @@ function App() {
           마음체크는 자가점검과 생활 회복 제안을 돕는 앱이며, 의료 진단이나 치료를 대신하지
           않습니다.
         </p>
-        <div className="app-footer-links">
-          <a href="/privacy-policy.html" target="_blank" rel="noreferrer">
-            개인정보처리방침
-          </a>
-        </div>
+          <div className="app-footer-links">
+            <a href="./privacy-policy.html" target="_blank" rel="noreferrer">
+              개인정보처리방침
+            </a>
+          </div>
       </footer>
     </main>
   )
