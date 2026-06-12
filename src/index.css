@@ -1,0 +1,93 @@
+:root {
+  --bg-top: #fff8ee;
+  --bg-bottom: #f3eadf;
+  --paper: rgba(255, 251, 245, 0.82);
+  --paper-strong: rgba(255, 248, 238, 0.96);
+  --line-soft: rgba(126, 93, 58, 0.14);
+  --line-strong: rgba(126, 93, 58, 0.22);
+  --text-main: #3f3027;
+  --text-soft: #6c5a4d;
+  --text-heading: #2f2119;
+  --sun: #f5cb85;
+  --peach: #f1c6a8;
+  --sage: #b7c9a7;
+  --olive: #738d63;
+  --rain: #cdd8e6;
+  --rose: #d8b1ab;
+  --accent: #8b6b39;
+  --accent-deep: #6f542b;
+  --shadow-soft: 0 18px 45px rgba(92, 72, 51, 0.08);
+  --shadow-card: 0 22px 60px rgba(75, 60, 44, 0.1);
+  font-family:
+    'Pretendard Variable', 'Pretendard', 'Noto Sans KR', 'Malgun Gothic',
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-main);
+  background:
+    radial-gradient(circle at top, rgba(245, 203, 133, 0.42), transparent 24%),
+    radial-gradient(circle at 12% 18%, rgba(183, 201, 167, 0.18), transparent 16%),
+    radial-gradient(circle at 88% 12%, rgba(241, 198, 168, 0.18), transparent 18%),
+    linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14)),
+    repeating-linear-gradient(
+      135deg,
+      transparent 0,
+      transparent 12px,
+      rgba(139, 107, 57, 0.02) 12px,
+      rgba(139, 107, 57, 0.02) 24px
+    );
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+}
+
+h1,
+h2 {
+  margin: 0;
+  line-height: 1.15;
+  color: var(--text-heading);
+}
+
+h1 {
+  font-size: clamp(2.6rem, 5vw, 4.6rem);
+  margin: 10px 0 18px;
+}
+
+h2 {
+  font-size: clamp(1.35rem, 2.5vw, 1.8rem);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
