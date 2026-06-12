@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff8ee" />
+    <title>마음체크 개인정보처리방침</title>
+    <style>
+      :root {
+        --bg-top: #fff8ee;
+        --bg-bottom: #f3eadf;
+        --paper: rgba(255, 251, 245, 0.92);
+        --line-soft: rgba(126, 93, 58, 0.14);
+        --text-main: #3f3027;
+        --text-soft: #6c5a4d;
+        --text-heading: #2f2119;
+        --accent: #8b6b39;
+        --shadow-card: 0 22px 60px rgba(75, 60, 44, 0.1);
+        font-family: 'Pretendard Variable', 'Pretendard', 'Noto Sans KR', 'Malgun Gothic',
+          sans-serif;
+        color: var(--text-main);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background:
+          radial-gradient(circle at top, rgba(245, 203, 133, 0.42), transparent 24%),
+          radial-gradient(circle at 12% 18%, rgba(183, 201, 167, 0.18), transparent 16%),
+          radial-gradient(circle at 88% 12%, rgba(241, 198, 168, 0.18), transparent 18%),
+          linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+      }
+
+      main {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 40px 0 60px;
+      }
+
+      section {
+        margin-bottom: 20px;
+        padding: 24px;
+        border-radius: 28px;
+        border: 1px solid var(--line-soft);
+        background: var(--paper);
+        box-shadow: var(--shadow-card);
+      }
+
+      h1,
+      h2 {
+        margin: 0;
+        color: var(--text-heading);
+      }
+
+      h1 {
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        margin-bottom: 12px;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin-bottom: 12px;
+      }
+
+      p,
+      li {
+        line-height: 1.7;
+      }
+
+      ul {
+        margin: 12px 0 0;
+        padding-left: 20px;
+      }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-size: 0.78rem;
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      .muted {
+        color: var(--text-soft);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      @media (max-width: 640px) {
+        main {
+          width: min(100% - 20px, 100%);
+          padding-top: 20px;
+        }
+
+        section {
+          padding: 20px;
+          border-radius: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <p class="eyebrow">Privacy Policy</p>
+        <h1>마음체크 개인정보처리방침</h1>
+        <p class="muted">최종 업데이트일: 2026년 6월 12일</p>
+        <p>
+          마음체크는 우울, 불안, 스트레스를 가볍게 자가점검하고 생활 회복 가이드를
+          살펴볼 수 있는 앱입니다. 이 개인정보처리방침은 앱 이용 시 어떤 정보가 저장되거나
+          처리되는지 안내하기 위해 작성되었습니다.
+        </p>
+      </section>
+
+      <section>
+        <h2>1. 수집 및 저장하는 정보</h2>
+        <p>마음체크는 회원가입 기능을 제공하지 않으며, 기본적으로 다음 정보를 기기 내부에 저장할 수 있습니다.</p>
+        <ul>
+          <li>우울 자가점검 결과</li>
+          <li>마음 날씨 선택값</li>
+          <li>감정 기록, 힘들었던 부분, 감사한 것, 한 줄 메모</li>
+          <li>위로 카드 표시 순서</li>
+        </ul>
+        <p>
+          위 정보는 사용자의 기기 브라우저 저장소(localStorage)에 저장되며, 별도의 회원 데이터베이스나
+          운영 서버로 자동 전송되지 않습니다.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. 정보를 이용하는 목적</h2>
+        <ul>
+          <li>이전에 저장한 자가점검 결과와 기록을 앱 안에서 다시 보여주기 위해</li>
+          <li>최근 기록 흐름과 회복 발자국 기능을 제공하기 위해</li>
+          <li>사용자에게 맞는 생활 회복 가이드를 추천하기 위해</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. 제3자 제공 및 외부 서비스</h2>
+        <p>
+          마음체크는 사용자의 자가점검 기록을 운영자가 수집하거나 제3자에게 판매하지 않습니다.
+        </p>
+        <p>
+          다만 사용자가 선택적으로 공유 기능을 사용할 경우, 다음과 같은 외부 기능이 동작할 수 있습니다.
+        </p>
+        <ul>
+          <li>카카오 공유 기능 사용 시 Kakao JavaScript SDK가 호출될 수 있습니다.</li>
+          <li>일반 공유 기능 사용 시 기기 또는 브라우저의 기본 공유 기능이 열릴 수 있습니다.</li>
+          <li>클립보드 복사 기능 사용 시 공유 문구가 사용자 기기 클립보드에 복사될 수 있습니다.</li>
+        </ul>
+        <p>
+          외부 서비스 이용 과정에서 처리되는 정보는 각 서비스 제공자의 정책이 적용될 수 있습니다.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. 보관 기간 및 삭제</h2>
+        <p>
+          앱 내 기록은 사용자가 삭제하기 전까지 사용자 기기 내부 저장소에 남을 수 있습니다.
+          사용자는 앱 내 기록 삭제 기능 또는 브라우저/앱 데이터 삭제를 통해 저장된 정보를 지울 수 있습니다.
+        </p>
+      </section>
+
+      <section>
+        <h2>5. 아동의 개인정보</h2>
+        <p>
+          마음체크는 특정 아동을 대상으로 설계된 서비스가 아니며, 고의로 아동의 개인정보를 수집하기 위한
+          기능을 제공하지 않습니다.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. 의료 관련 안내</h2>
+        <p>
+          마음체크의 자가점검 결과와 회복 가이드는 참고용이며, 의료 진단이나 치료를 대신하지 않습니다.
+          위기 상황이거나 자신을 해칠 생각이 드는 경우에는 앱 사용보다 즉시 가까운 사람, 지역 상담기관,
+          응급의료기관 등과 연결하는 것이 우선입니다.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. 문의</h2>
+        <p>
+          개인정보처리방침 또는 앱의 정보 처리 방식에 대한 문의가 필요한 경우 아래 개발자 이메일로 문의해
+          주세요.
+        </p>
+        <p><strong>개발자 이메일:</strong> <a href="mailto:kjy519net@gmail.com">kjy519net@gmail.com</a></p>
+      </section>
+    </main>
+  </body>
+</html>
